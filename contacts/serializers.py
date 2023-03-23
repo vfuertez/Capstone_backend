@@ -6,4 +6,4 @@ class ContactSerializer(serializers.HyperlinkedModelSerializer):
         
         model = Contact
         
-        fields = ['id','name','address', 'email', 'phone_number']
+        fields = ['id','name','address', 'email', 'phone_number', 'url']
